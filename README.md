@@ -19,8 +19,7 @@ namespace ProjetoForII
             Console.WriteLine("Informe um numero maior que 10: ");
             int numero=Convert.ToInt32(Console.ReadLine());
 
-            //Chamar a estrutura for para que ele faça a volta de acordo
-            //com o numero informado pelo usuario
+//Chamar a estrutura for para que ele faça a volta de acordo com o numero informado pelo usuario//
             for (int i = 1; i <= numero; i++)
             {
                 //verificará se i é par ou impar
@@ -35,7 +34,7 @@ namespace ProjetoForII
             }
 
 
-            Console.ReadKey();
+Console.ReadKey();
         }
     }
 }
